@@ -41,3 +41,16 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# My definition ignore files
+*.bk
+commands.txt
+.idea/
+babel-cache/
+/backstop_data/
+build/
+node_modules/
+tests/functional/log/
+tests/visual/backstop_data/bitmaps_test/
+npm-debug.log
+stats.json
