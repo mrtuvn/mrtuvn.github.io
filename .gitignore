@@ -44,7 +44,7 @@ jspm_packages
 
 # My definition ignore files
 *.bk
-/*.txt
+commands.txt
 .idea/
 babel-cache/
 /backstop_data/
