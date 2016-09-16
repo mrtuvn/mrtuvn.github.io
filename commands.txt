@@ -2,4 +2,8 @@ commands
 
 
 // Start server
-npm start 
+npm start
+
+npm init // No exist package.json
+
+npm install --save
