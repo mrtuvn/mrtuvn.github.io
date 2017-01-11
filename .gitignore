@@ -54,3 +54,4 @@ tests/functional/log/
 tests/visual/backstop_data/bitmaps_test/
 npm-debug.log
 stats.json
+/.project
