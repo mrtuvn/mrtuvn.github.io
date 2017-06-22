@@ -1,0 +1,33 @@
+@import './../../node_modules/flex-box-grid/dist/scss/_utilities';
+@import './../../node_modules/flex-box-grid/dist/scss/_grid';
+
+.container {
+	padding-right: $row__gutter;
+	padding-left: $row__gutter;
+	@media (min-width: $screen--M) {
+		max-width: 102.4rem;
+		padding-right: $row__gutter--L;
+		padding-left: $row__gutter--L;
+	}
+}
+
+.row--gutter {
+	margin-left: -($row__gutter / 2);
+	margin-right: -($row__gutter / 2);
+	@media (min-width: $screen--M) {
+		margin-left: -($row__gutter--L / 2);
+		margin-right: -($row__gutter--L / 2);
+	}
+
+	> [class^=X],
+	> [class^=S],
+	> [class^=M],
+	> [class^=L] {
+		padding-left: $row__gutter / 2;
+		padding-right: $row__gutter / 2;
+		@media (min-width: $screen--M) {
+			padding-left: $row__gutter--L / 2;
+			padding-right: $row__gutter--L / 2;
+		}
+	}
+}

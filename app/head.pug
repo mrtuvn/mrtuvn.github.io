@@ -1,0 +1,49 @@
+- var name = 'Tu'
+- var lastname = 'Nguyen'
+- var username = 'mrtuvn'
+- var fullname = name + ' ' + lastname
+- var title = fullname + ' | Frontend Engineer'
+- var description = 'Personal page about Bogdan Plieshka, Frontend Engineer. Skills. Portfolio. Contacts.'
+- var url = 'https://' + username + '.github.io/'
+- var imgPath = url + 'app/img/'
+- var img = imgPath + 'pictures/body-2x.png'
+
+head(prefix='og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#')
+	title= title
+	meta(charset='UTF-8')
+	meta(name='theme-color', content='#a462d1')
+	meta(name='viewport', content='width=device-width')
+
+	meta(property='og:title', content=title)
+	meta(property='og:type', content='profile')
+	meta(property='og:locale', content='en_US')
+	meta(property='og:url', content=url)
+	meta(property='og:image', content=img)
+	meta(property='og:image:width', content='600')
+	meta(property='og:image:height', content='413')
+	meta(property='og:description', name='description' content=description)
+
+	meta(property='profile:first_name', content=name)
+	meta(property='profile:last_name', content=lastname)
+	meta(property='profile:gender', content='male')
+	meta(property='profile:username', content=username)
+
+	meta(property='fb:profile_id', content='mrtu.vn')
+	meta(property='fb:admins', content='mrtu.vn')
+	meta(property='fb:app_id', content='')
+
+	meta(name='twitter:card', content='summary')
+	meta(name='twitter:site', content='@tuna2191')
+	meta(name='twitter:title', content=title)
+	meta(name='twitter:description', content=description)
+	meta(name='twitter:image', content=img)
+
+	meta(name='keywrods', content='Frontend, Frontend Engineer, Coding, Design, Create, Skills, Portfolio, Contacts')
+	meta(name='description', content=description)
+	meta(name='google-site-verification', content='SyENH8pY4PKjK1mLhHrh5OoEMs6wb-CKBpc3jBXIiLg')
+
+	link(rel='icon', type='image/png', href=imgPath + 'favicons/favicon-32x32.png', sizes='32x32')
+	link(rel='icon', type='image/png', href=imgPath + 'favicons/favicon-16x16.png', sizes='16x16')
+	link(rel='icon', type='image/x-icon', href=imgPath + 'favicons/favicon.ico')
+
+	link(rel='canonical', href=url)

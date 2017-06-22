@@ -1,7 +1,7 @@
-const PORT = 3002;
+const PORT = 8081;
 
 exports.config = {
 	port: PORT,
 	url: 'http://localhost:' + PORT,
-	version: '3.1.2'
+	version: '1.0.0'
 };

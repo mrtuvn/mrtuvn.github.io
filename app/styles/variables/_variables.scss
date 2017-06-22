@@ -1,0 +1,95 @@
+@import "./_colors";
+
+$experimental-support-for-mozilla: true;
+$experimental-support-for-webkit: true;
+
+// Fonts
+
+$font-name--regular: 'Open Sans';
+$font-name--emphasis: Raleway;
+
+$font-family--fallback--regular: Helvetica, Arial, sans-serif;
+$font-family--fallback--emphasis: Optima, 'Trebuchet MS', sans-serif;
+
+$font-family--regular: $font-name--regular, $font-family--fallback--regular;
+$font-family--emphasis: $font-name--emphasis, $font-family--fallback--emphasis;
+
+$font-weight--light: 200;
+$font-weight--regular: 400;
+$font-weight--bold: 600;
+
+$font-weight--fallback--light: $font-weight--light;
+$font-weight--fallback--regular: $font-weight--light;
+$font-weight--fallback--bold: $font-weight--bold;
+
+$font-size--XS: 1rem;
+$font-size--S: 1.2rem;
+$font-size: 1.4rem;
+$font-size--L: 1.6rem;
+
+$line-height--xs: 1;
+$line-height--s: 1.2;
+$line-height--regular: 1.4;
+$line-height--fallback--regular: 1.5;
+
+$letter-spacing--fallback--regular: 0.01em;
+$letter-spacing--regular: 0;
+
+$color: $color--gray-dark;
+
+$border-color--darkest: $color--gray-light;
+$border-color--darker: $color--gray-ba;
+$border-color: $color--gray-da;
+$border-color--lighter: $color--gray-df;
+
+$border-radius--S: .25em;
+$border-radius: .333em;
+
+$title-1__font-size: 2.8rem;
+$title-1__font-size--M: 3rem;
+$title-1__font-size--L: 3.4rem;
+$title-2__font-size: 2.4rem;
+$title-2__font-size--M: 2.6rem;
+$title-2__font-size--L: 3rem;
+$title-3__font-size: 2rem;
+$title-3__font-size--M: 2.4rem;
+$title-3__font-size--L: 2.6rem;
+$title-4__font-size: 1.8rem;
+$title-4__font-size--M: 2rem;
+$title-4__font-size--L: 2.2rem;
+
+$link__color: $color--blue;
+$link--hover__color: $color--cyan;
+
+$indent: $font-size;
+$indent--XS: $indent / 2;
+$indent--S: $indent * .667;
+$indent--L: $indent * 1.5;
+$indent--XL: $indent * 2;
+
+@import "./_grid";
+
+$background-color: #fff;
+
+//	Components
+
+$logo__size--L: 20rem;
+
+// Actions
+
+$action__background-color: $color--white;
+$action__border-radius: $border-radius--S;
+$action__border-color: $border-color--darker;
+$action__margin-bottom: $indent--S;
+$action__margin-side: .5rem;
+$action__padding-vertical: .4rem;
+$action__padding-side: $action__padding-vertical * 2;
+$action__font-size: $font-size--S;
+$action--active__border-color: $color--prime;
+
+$action--hover__border-color: $border-color--darkest;
+
+// Lines
+
+$line__color: $color--non-accent;
+$line__border: 1px dashed $line__color;

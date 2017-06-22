@@ -1,0 +1,153 @@
+//	Clearfixes
+
+.cf {
+	@include clearfix();
+}
+
+.clear {
+	clear: both;
+}
+
+//	Indents
+
+.mb--0 {
+	margin-bottom: 0;
+}
+
+.mt--1 {
+	margin-top: 1rem;
+}
+
+.mt--2 {
+	margin-top: 2rem;
+}
+
+.mt--4 {
+	margin-top: 4rem;
+}
+
+.mt--2--from-M {
+	@media (min-width: $screen--M) {
+		margin-top: 2rem;
+	}
+}
+
+.mb--1 {
+	margin-bottom: 1rem;
+}
+
+.mb--2 {
+	margin-bottom: 2rem;
+}
+
+.ml--05 {
+	margin-left: .5rem;
+}
+
+.pr--05 {
+	padding-right: .5rem;
+}
+
+.pr--03 {
+	padding-right: .3rem;
+}
+
+
+//	Aligns
+
+.align {
+	&--h {
+		&--l {
+			text-align: left;
+		}
+		&--r {
+			text-align: right;
+		}
+		&--c {
+			text-align: center;
+		}
+	}
+	&--v {
+		&--t {
+			vertical-align: top;
+		}
+		&--m {
+			vertical-align: middle;
+		}
+		&--b {
+			vertical-align: bottom;
+		}
+	}
+}
+
+.align--h--l--from-L {
+	@media (min-width: $screen--L) {
+		text-align: left;
+	}
+}
+
+//
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.table {
+	display: table;
+	&-row {
+		display: table-row;
+	}
+	&-cell {
+		display: table-cell;
+	}
+}
+
+//
+
+.none {
+	display: none;
+	&-from {
+		&-S {
+			@media (min-width: $screen--S) {
+				display: none !important;
+			}
+		}
+		&-M {
+			@media (min-width: $screen--M) {
+				display: none !important;
+			}
+		}
+		&-L {
+			@media (min-width: $screen--L) {
+				display: none !important;
+			}
+		}
+	}
+	&-to {
+		&-S {
+			@media (max-width: $break--S) {
+				display: none !important;
+			}
+		}
+		&-M {
+			@media (max-width: $break--M) {
+				display: none !important;
+			}
+		}
+		&-L {
+			@media (max-width: $break--L) {
+				display: none !important;
+			}
+		}
+	}
+}
+
+// Flex box grid extend
+
+.X--flex-end {
+	align-self: flex-end;
+}

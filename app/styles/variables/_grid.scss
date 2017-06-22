@@ -1,0 +1,16 @@
+@import './../../../node_modules/flex-box-grid/dist/scss/_variables';
+
+$grid__gutter: 0;
+
+$row__gutter: $indent;
+$row__gutter--L: $indent--L;
+
+$screen--S: $break--S;
+$screen--M: $break--M;
+$screen--L: $break--L;
+$screen--XL: $break--XL;
+
+$break--S: $break--S - 1;
+$break--M: $break--M - 1;
+$break--L: $break--L - 1;
+$break--XL: $break--XL - 1;

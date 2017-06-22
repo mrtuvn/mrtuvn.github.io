@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - node
+os:
+  - linux
+addons:
+  firefox: "24.0"
+install:
+  - npm install
+before_script:
+  - npm run build
+  - cd build && http-server &
+  - sleep 30
+script:
+  - npm test
+#after_success:
+#  - ./deploy.sh
+sudo: required

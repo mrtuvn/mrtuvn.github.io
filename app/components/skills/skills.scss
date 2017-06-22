@@ -1,0 +1,232 @@
+@import './../../styles/variables/_variables';
+@import './../../styles/extends/_extends';
+
+$skills-card-text__font-size: $font-size--S;
+$skills-card-text__font-size--L: $font-size;
+
+$skills-card-list__margin-vertical: $indent;
+
+$skills-card-list-item__margin-bottom: $indent--S;
+$skills-card-list-item__margin-side: .5rem;
+$skills-card-list-item__height--half: ($action__font-size * $line-height--regular) / 2 + $action__padding-vertical;
+
+$skills-categories-item__color: $color--gray-df;
+$skills-categories-item__border-color: $skills-categories-item__color;
+
+$skills-card-list-item-connector__indent-side: 1.5rem;
+
+
+.skills-card-inner-wrap {
+	padding: $indent;
+	@media (min-width: $screen--M) {
+		padding: $indent--L;
+	}
+	@media (min-width: $screen--L) {
+		min-height: 22rem;
+	}
+}
+
+.skills {
+	&-section {
+		@media (min-width: $screen--L) {
+			margin-top: -4.3rem;
+		}
+	}
+	&-card {
+		margin-top: $indent--L;
+		border: 1px solid $border-color--darker;
+		border-radius: $border-radius $border-radius $border-radius 0;
+		background-color: $color--white;
+		@media (min-width: $screen--M) {
+			position: relative;
+			margin-bottom: $indent--L;
+			border-radius: .333em;
+			&::after,
+			&::before {
+				content: '';
+				position: absolute;
+			}
+			&::after {
+				top: 100%;
+				left: 1rem;
+				height: 1rem;
+				margin-top: 1rem;
+				border-left: 1px solid $skills-categories-item__border-color;
+			}
+			&::before {
+				top: 1.2rem;
+				left: 100%;
+				width: 3.2rem;
+				border-bottom: 1px solid $border-color--darker;
+			}
+		}
+		&-title {
+			@extend %title-2;
+			position: relative;
+			margin-bottom: .25em;
+		}
+		&-image {
+			width: auto;
+			height: auto;
+			max-width: 10rem;
+			max-height: 7rem;
+			&-wrap {
+				display: table;
+				float: right;
+				min-height: 5rem;
+				margin-left: $indent--S;
+				margin-bottom: $indent--XS;
+			}
+			&-innerWrap {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+		&-description {
+			font-size: $skills-card-text__font-size;
+			margin-bottom: 1em;
+			white-space: pre-line;
+			@media (min-width: $screen--M) {
+				font-size: $skills-card-text__font-size--L;
+			}
+		}
+		&-level {
+			font-size: $skills-card-text__font-size;
+			@media (min-width: $screen--M) {
+				font-size: $skills-card-text__font-size--L;
+				margin-bottom: .25em;
+			}
+			.icon {
+				margin-bottom: -($font-size - $skills-card-text__font-size);
+				@media (min-width: $screen--M) {
+					font-size: $font-size--L;
+					margin-bottom: -($font-size--L - $font-size);
+				}
+			}
+			.text--non-accent {
+				margin-right: .9em;
+			}
+		}
+		&-status {
+			font-size: $skills-card-text__font-size;
+			@media (min-width: $screen--M) {
+				font-size: $skills-card-text__font-size--L;
+			}
+			.text--non-accent {
+				margin-right: .3em;
+			}
+		}
+	}
+	&-list {
+		position: relative;
+		margin: $skills-card-list__margin-vertical (-$skills-card-list-item__margin-side) $indent--L;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			border-left: 1px solid $border-color--darker;
+			bottom: $skills-card-list-item__margin-bottom + $skills-card-list-item__height--half + .1rem;
+		}
+		&::before {
+			top: -$skills-card-list__margin-vertical;
+			left: $skills-card-list-item-connector__indent-side;
+
+		}
+		&::after {
+			top: $skills-card-list-item__height--half + .1rem;
+			right: $skills-card-list-item-connector__indent-side;
+		}
+		&-wrap {
+			position: relative;
+			overflow: hidden;
+			&::before {
+				content: '';
+				position: absolute;
+				z-index: 2;
+				bottom: $skills-card-list__margin-vertical + $skills-card-list-item__margin-bottom + $skills-card-list-item__height--half + .1rem;
+				right: .1rem;
+				background-color: $background-color;
+				width: $skills-card-list-item-connector__indent-side - $skills-card-list-item__margin-side - .1rem;
+				height: 1px;
+			}
+			@media (min-width: $screen--M) {
+				margin-top: $indent--L;
+			}
+		}
+		&-item {
+			position: relative;
+			z-index: 2;
+			margin: 0 $skills-card-list-item__margin-side $skills-card-list-item__margin-bottom;
+			&:only-child {
+				&::after {
+					display: none;
+				}
+			}
+			&::after {
+				content: '';
+				position: absolute;
+				bottom: $skills-card-list-item__height--half;
+				left: 100%;
+				left: calc(100% + 1px);
+				width: $break--L;
+				border-bottom: 1px solid $border-color--darker;
+			}
+		}
+	}
+	&-categories {
+		overflow: hidden;
+		@extend .skills-list;
+		&::after,
+		&::before {
+			border-color: $skills-categories-item__border-color;
+		}
+		&-wrap {
+			position: relative;
+			&::after {
+				content: '';
+				position: absolute;
+				background-color: $background-color;
+				top: 0;
+				bottom: 0;
+				left: 100%;
+				margin-left: -.1rem;
+				width: 3rem;
+				z-index: 2;
+			}
+		}
+		&-item {
+			@extend .skills-list-item;
+			border-color: transparent;
+			cursor: default;
+			&::after,
+			&::before {
+				border-color: $skills-categories-item__border-color;
+			}
+			&:hover {
+				border-color: transparent;
+			}
+			&:not(.skills-categories-item--active) {
+				color: $skills-categories-item__color;
+			}
+		}
+	}
+}
+
+.input--skills-filter {
+	position: relative;
+	z-index: 1;
+	margin-top: -1px;
+	font-size: $font-size--S;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	@media (min-width: $screen--M) {
+		width: 50%;
+		margin-top: 0;
+		border-top-left-radius: $border-radius;
+		border-top-right-radius: $border-radius;
+	}
+}

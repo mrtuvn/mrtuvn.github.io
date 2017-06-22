@@ -1,0 +1,3 @@
+@function rem-to-em ($rem) {
+	@return #{$rem / $font-size}em;
+}

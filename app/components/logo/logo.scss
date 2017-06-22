@@ -1,0 +1,106 @@
+@import './../../styles/variables/_variables';
+@import './../../styles/functions/_functions';
+
+$logo__size--em: rem-to-em($logo__size--L);
+$logo__color: $color--black;
+
+$logo-inner-wrap__size--pct: 96%;
+$logo-inner-wrap__indent--pct: (100% - $logo-inner-wrap__size--pct) / 2;
+
+.logo {
+	position: relative;
+	display: inline-block;
+	width: $logo__size--em;
+	height: $logo__size--em;
+	perspective: 500px;
+	float: left;
+	margin-top: 1.2rem;
+	margin-bottom: $indent--L;
+	font-size: .8rem;
+	user-select: none;
+	@media (min-width: $screen--S) {
+		font-size: 1rem;
+		margin-top: 0;
+	}
+	@media (min-width: $screen--M) {
+		font-size: $font-size;
+		cursor: pointer;
+	}
+
+	&-head,
+	&-tail {
+		position: absolute;
+		width: $logo__size--em;
+		height: $logo__size--em;
+		border: .2rem solid $logo__color;
+		border-radius: $logo__size--em;
+		color: $logo__color;
+		transition: transform 1.2s ease-in-out;
+		transform-style: preserve-3d;
+		backface-visibility: hidden;
+		&::after {
+			position: absolute;
+			top: $logo-inner-wrap__indent--pct;
+			left: $logo-inner-wrap__indent--pct;
+			width: $logo-inner-wrap__size--pct;
+			height: $logo-inner-wrap__size--pct;
+			border: .1rem dashed $logo__color;
+			border-radius: $logo-inner-wrap__size--pct;
+			content: '';
+		}
+	}
+
+	&-head {
+		z-index: 1;
+		transform: rotateY(0deg);
+		.logo--flipped & {
+			transform: rotateY(180deg);
+		}
+	}
+
+	&-tail {
+		display: table;
+		transform: rotateY(-180deg);
+		.logo--flipped & {
+			z-index: 2;
+			transform: rotateY(0deg);
+		}
+	}
+
+	&-title,
+	&-est {
+		position: absolute;
+		right: 0;
+		left: 0;
+		text-align: center;
+	}
+
+	&-title {
+		top: 50%;
+		margin-top: -.5em;
+		font-size: rem-to-em(6.4rem);
+	}
+
+	&-text {
+		display: table-cell;
+		padding: 5% 10%;
+		vertical-align: middle;
+		text-align: center;
+		font-size: rem-to-em($font-size);
+	}
+
+	&-est {
+		bottom: 0;
+		margin-bottom: 15%;
+		font-weight: $font-weight--bold;
+		font-size: rem-to-em($font-size--S);
+	}
+
+	&-img {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		margin-left: -(25% / 2);
+		width: 25%;
+	}
+}

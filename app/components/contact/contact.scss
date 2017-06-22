@@ -1,0 +1,27 @@
+@import './../../styles/variables/_variables';
+@import './../../styles/extends/_extends';
+
+.contact-section-title {
+	@extend %title-4;
+	margin-bottom: .5em;
+}
+
+.contact-item {
+	margin-bottom: $indent--S;
+	padding-right: $indent--S;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.contact-item-image-wrap {
+	width: 2.5rem;
+}
+
+.contact-item-image {
+	height: auto;
+}
+
+.contact-image {
+	margin-right: 20%;
+	margin-bottom: -.7rem;
+}

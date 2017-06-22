@@ -1,0 +1,48 @@
+@import './../../styles/variables/_variables';
+
+$spinner__animation-speed: 1000ms;
+
+@keyframes fx {
+	50% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@mixin animation($delay: 0ms) {
+	animation: fx $spinner__animation-speed ease infinite $delay;
+}
+
+.spinner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	white-space: nowrap;
+}
+
+.spinner-dot {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border: .2em solid $color--prime;
+	border-radius: 1em;
+	margin: 0 (1em / 2);
+	transform: scale(0);
+}
+
+.spinner-dot-1 {
+	@include animation();
+}
+
+.spinner-dot-2 {
+	@include animation($spinner__animation-speed * 0.3);
+}
+
+.spinner-dot-3 {
+	@include animation($spinner__animation-speed * 0.6);
+}
