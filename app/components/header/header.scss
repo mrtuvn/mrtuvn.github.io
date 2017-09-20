@@ -79,6 +79,7 @@ $nav-link-line__size: $indent;
 	@media (min-width: $screen--L) {
 		margin-left: $header-group__margin-left--XL;
 	}
+	margin-bottom: 9rem;
 }
 
 .header-description-image {
@@ -88,11 +89,13 @@ $nav-link-line__size: $indent;
 	@media (min-width: $screen--L) {
 		margin-top: $header-description-image__indent-top--L;
 	}
+	display: none; // hide temporary
 }
 
 .header-description-image-support {
 	position: relative;
 	&::after {
+		display: none; // hide this gray line too
 		content: '';
 		position: absolute;
 		top: $header-description-image__indent-top;
