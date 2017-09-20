@@ -59,7 +59,7 @@ const Header = () => {
 								</a>,&nbsp;
 								<a
 									className="link link--text link--text-title"
-									href="#"
+									href="http://steamcommunity.com/id/mrtu9vn"
 									onClick={ga.bind(null, 'send', 'event', GA.header, 'click_gaming', {transport: 'beacon'})}
 									target="_blank">
 									gam<span className="text--non-accent">ing</span>
