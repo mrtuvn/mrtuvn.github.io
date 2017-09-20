@@ -1,7 +1,6 @@
 .idea/
 babel-cache/
 /backstop_data/
-build/
 node_modules/
 tests/functional/log/
 tests/visual/backstop_data/bitmaps_test/
