@@ -62,7 +62,7 @@ const Header = () => {
 									href="#"
 									onClick={ga.bind(null, 'send', 'event', GA.header, 'click_gaming', {transport: 'beacon'})}
 									target="_blank">
-									gaming
+									gam<span className="text--non-accent">ing</span>
 								</a>
 							
 							

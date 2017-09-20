@@ -23,14 +23,6 @@
     "image": "xslt.jpg",
     "categories": ["languages", "templates", "client"]
   },
-  {
-    "name": "Twig",
-    "level": 4,
-    "description": "No the best, not the worst template engine. Syntax is kinda awful, but I'm used to work with it. Has own advantages in scalability.",
-    "status": "Not especially interesting",
-    "image": "twig.png",
-    "categories": ["languages", "templates", "client"]
-  },
 	{
 		"name": "CSS",
 		"level": 5,
@@ -41,7 +33,7 @@
 	},
   {
     "name": "Sass",
-    "level": 5,
+    "level": 3,
     "description": "Libsass, .scss, mixins, functions, extends,  placeholders, default vars, var overrides, maps - if you do not use all of this, you are strange.",
     "status": "Robust. Interesting",
     "image": "sass.svg",
@@ -49,7 +41,7 @@
   },
   {
     "name": "Less",
-    "level": 5,
+    "level": 4,
     "description": "UI developer life is divided in two stages. The first is before using the preprocessor, second is after.\nLess is not as powerful as Sass but it has some advantages in speed and works differently with mixins and variables.",
     "status": "Interesting. Prefer Sass, PostCSS.",
     "image": "less.svg",
@@ -57,7 +49,7 @@
   },
   {
     "name": "Stylus",
-    "level": 3,
+    "level": 1,
     "description": "Have some experience with Stylus, was curious how it worked, did some researches. Do not especially like it.",
     "status": "Not especially interesting",
     "image": "stylus.svg",
@@ -65,7 +57,7 @@
   },
   {
     "name": "PostCSS",
-    "level": 5,
+    "level": 1,
     "description": "A better way to do better styles. Mostly use as addition to preprocessors to autoprefix, lint, minify etc.",
     "status": "Interesting",
     "image": "postcss.svg",
@@ -89,7 +81,7 @@
   },
 	{
 		"name": "JavaScript",
-		"level": 4,
+		"level": 3,
 		"description": "It's very difficult to evaluate knowledge of this language, specially if mix to vanilla understanding libs & frameworks. Good I guess.",
 		"status": "Most Interesting",
 		"image": "javascript.svg",
@@ -121,7 +113,7 @@
   },
   {
     "name": "Underscore",
-    "level": 4,
+    "level": 3,
     "description": "Utility library that provides helper functions for common idioms with a focus on functional programming. Mostly worked with it in backbone apps.",
     "status": "Good",
     "image": "underscore.png",
@@ -137,7 +129,7 @@
   },
   {
     "name": "Backbone.js",
-    "level": 3,
+    "level": 1,
     "description": "Working with couple projects written with Backbone. Backbone was good, but long time ago. Nowadays there is much more interesting frameworks.",
     "status": "Not interesting",
     "image": "backbone.svg",
@@ -153,7 +145,7 @@
   },
 	{
 		"name": "Angular.js",
-		"level": 3,
+		"level": 2,
 		"description": "Previous version of this site was written on Angular. It was kinda easy to do, but the size, blinking & performance issues made bad experience. Angular 2 was promising, but no. Better use React.js or if you don't like shadow DOM vue.js",
 		"status": "Not interesting",
 		"image": "angular.svg",
@@ -287,22 +279,6 @@
     "image": "foundation.svg",
     "categories": ["frameworks", "styles", "javascript"]
   },
-  {
-    "name": "ASP.NET",
-    "level": 4,
-    "description": "Closely familiar with web technologies of this platform. Mostly with views & controllers in terms of MVC. Can write some thing with c#. Love .Net for Razor.",
-    "status": "Rebuild...", 
-    "image": "aspnet.png",
-    "categories": ["platforms", "languages", "server"]
-  },
-	{
-		"name": "Razor",
-		"level": 5,
-		"description": "How to easily organize and manipulate more than a hundred pages? Use razor. Layouts, sublayouts, sections, helpers and lot of useful things make easy the development of complex web applications. Well know this template engine and have great experience with it during a work on a lot of projects.",
-		"status": "Not especially interesting",
-		"image": "razor.png",
-    "categories": ["languages", "client", "templates"]
-	},
 	{
 		"name": "mySQL",
 		"level": 2,
@@ -312,52 +288,12 @@
     "categories": ["databases"]
 	},
 	{
-		"name": "MongoDB",
-		"level": 2,
-		"description": "Kinda interesting in that DB because of JavaScript.",
-		"status": "Nothing special",
-		"image": "mongodb.svg",
-    "categories": ["databases", "javascript"]
-	},
-	{
 		"name": "PHP",
 		"level": 3,
-		"description": "Sometimes working also with php. In past did some projects on Smarty, YII and self made platforms. Wrote some plugings for Wordpress, extend some phpStorm plugins.",
+		"description": "Working with it everyday.",
 		"status": "Not especially interesting",
 		"image": "php.svg",
     "categories": ["languages", "server"]
-	},
-	{
-		"name": "WordPress",
-		"level": 5,
-		"description": "Use to work with that a lot in past. Lot of sites, lot og plugins, lot oh themes. Some version of this site was written on WordPress long time ago.",
-		"status": "Not especially interesting",
-		"image": "wordpress.svg",
-    "categories": ["CMS", "server"]
-	},
-	{
-		"name": "phpBB",
-		"level": 4,
-		"description": "A long time ago in a galaxy far, far away... I was workink with this forum engine",
-		"status": "Not interesting",
-		"image": "phpBB.png",
-    "categories": ["CMS", "server"]
-	},
-	{
-		"name": "Optimizely",
-		"level": 4,
-		"description": "Worked certain period of time with that tool. I would not say that I was enjoyed as developer applying custom tags, events, conditional activations and other things. Prefer VWO.",
-		"status": "Not especially interesting",
-		"image": "optimizely.svg",
-    "categories": ["A/B testing", "tools"]
-	},
-	{
-		"name": "VWO",
-		"level": 4,
-		"description": "Visual Website Optimizer has the slight edge, with extras like heatmaps and the idea factory. Pretty nice and user friendly tool in comparison with Optimizely. But not all desirable features in the house.",
-		"status": "Interesting",
-		"image": "vwo.svg",
-    "categories": ["A/B testing", "tools"]
 	},
   {
     "name": "SVN",
@@ -375,61 +311,13 @@
     "image": "git.svg",
     "categories": ["version control"]
   },
-  {
-    "name": "Microdata",
-    "level": 5,
-    "description": "Metadata within existing content on web pages is important if you want show proper content in search results. Schema.org & Opengraph should be essential seo part of web app.",
-    "status": "Interesting",
-    "image": "microdata.svg",
-    "categories": ["methodologies", "techniques"]
-  },
-  {
-    "name": "Accessibility",
-    "level": 4,
-    "description": "650 million disabled people worldwide. 1 in 5 customers may have disabilities that prevent them from using our applications. Made applications accessible with wide techniques it's not just good for your karma, it's also good for your business. WAI-ARIA. WCAG 2.0.",
-    "status": "Interesting",
-    "image": "accessibility.svg",
-    "categories": ["methodologies", "techniques"]
-  },
 	{
 		"name": "Photoshop",
-		"level": 5,
-		"description": "Crop, cut and copy. Few hotkeys, few seconds and it's done. Peace of cake. My Photoshop skills go beyond the simple FED skills: retouch, animation, drawing etc.",
+		"level": 3,
+		"description": "Interesting..",
 		"status": "Interesting",
 		"image": "photoshop.svg",
     "categories": ["graphic editors", "raster"]
-	},
-	{
-		"name": "Fireworks",
-		"level": 5,
-		"description": "Really nice graphic editor for that time. Not so overloaded as photoshop. It was pleasure to work with it.",
-		"status": "Sleep well",
-		"image": "fireworks.png",
-    "categories": ["graphic editors", "raster"]
-	},
-	{
-		"name": "Illustrator",
-		"level": 3,
-		"description": "Changing vector. Have pretty basic skills to work with it. Specially when you work with lazy designers. Icons, Logos, Images. Vector trends you know.",
-		"status": "Not especially interesting",
-		"image": "illustrator.svg",
-    "categories": ["graphic editors", "vector"]
-	},
-	{
-		"name": "Sketch",
-		"level": 4,
-		"description": "It’s simple yet powerful, gets the job done faster and smother with its UI design-oriented set.",
-		"status": "Interesting",
-		"image": "sketch.png",
-    "categories": ["graphic editors", "vector"]
-	},
-	{
-		"name": "Avocode",
-		"level": 3,
-		"description": "Crossformat editor. With a tons of web development oriented features. If your choosing between Photoshop & Sketch - take Avocode.",
-		"status": "Interesting",
-		"image": "avocode.svg",
-    "categories": ["graphic editors", "vector"]
 	},
 	{
 		"name": "phpStorm",
@@ -449,9 +337,16 @@
 	},
 	{
 		"name": "Visual Studio",
-		"level": 5,
+		"level": 3,
 		"description": "It's like operate with spaceship. Not saying that I like, but know how to handle, with ReSharper of course.",
 		"status": "Not especially interesting",
+		"image": "visual-studio.svg",
+    "categories": ["IDE"]
+  },
+  {
+		"name": "Visual Studio Code",
+		"level": 5,
+		"description": "Modern Editor come to industry, built-in with git and lot of stuffs, easily install components. Interesting with it",
 		"image": "visual-studio.svg",
     "categories": ["IDE"]
 	},
@@ -478,29 +373,5 @@
     "status": "Always working with it",
     "image": "emmet.svg",
     "categories": ["tools", "templates"]
-  },
-	{
-		"name": "JIRA",
-		"level": 5,
-		"description": "Probably best ITS that I worked with. Familiar with a lot of features.",
-		"status": "Interesting",
-		"image": "jira.svg",
-    "categories": ["issue tracking"]
-	},
-	{
-		"name": "Trac",
-		"level": 4,
-		"description": "Awful tracking system. Unfortunately have management experience with it.",
-		"status": "No. No way. Never again",
-		"image": "trac.png",
-    "categories": ["issue tracking"]
-	},
-	{
-		"name": "Trello",
-		"level": 4,
-		"description": "Very nice ITS for small projects. Worked with few.",
-		"status": "Not especially interesting",
-		"image": "trello.svg",
-    "categories": ["issue tracking"]
-	}
+  }
 ]

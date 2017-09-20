@@ -7,16 +7,16 @@ import ContactLink from './partials/contact-link.jsx';
 const imgSrc = require.context('./../../img/pictures', true);
 
 const Contact = () => {
-	const MAIL_NAME = 'bogdanplieshka@gmail.com';
-	const SKYPE_USERNAME = 'bogdan_pleshka';
-	const VIBER_USERNAME = '380632665171';
-	const GITHUB_USERNAME = 'godban';
-	const LINKEDIN_USERNAME = 'bogdanplieshka';
-	const STACKOVERFLOW_USERNAME = 'godban';
-	const MEDIUM_USERNAME = 'bogdan_plieshka';
-	const FACEBOOK_USERNAME = 'bogdan.plieshka';
-	const INSTAGRAM_USERNAME = 'godban';
-	const TWITTER_USERNAME = 'b_plieshka';
+	const MAIL_NAME = 'ladiesman9x@gmail.com';
+	const SKYPE_USERNAME = 'tunguyenanhvn';
+	const VIBER_USERNAME = '123';
+	const GITHUB_USERNAME = 'mrtuvn';
+	const LINKEDIN_USERNAME = 'mrtuvn';
+	const STACKOVERFLOW_USERNAME = 'mrtuvn';
+	const MEDIUM_USERNAME = 'mrtuvn';
+	const FACEBOOK_USERNAME = 'mrtu.vn';
+	const INSTAGRAM_USERNAME = 'mrtuvn';
+	const TWITTER_USERNAME = 'tuna2191';
 
 	const CONTACT_IMAGE_NAME = 'stairs';
 
@@ -48,7 +48,7 @@ const Contact = () => {
 							iconName="gmail"
 							size={14}
 							title={MAIL_NAME}
-							text={['bogdan', <span className="link-text--non-accent">plieshka</span>, '@gmail.com' ]}
+							text={['', <span className="link-text--non-accent">ladiesman9x</span>, '@gmail.com' ]}
 						/>
 					</div>
 					<div className="contact-section M6 L4">
@@ -63,7 +63,7 @@ const Contact = () => {
 									iconName="gmail"
 									size={14}
 									title={MAIL_NAME}
-									text={['bogdan', <span className="link-text--non-accent">plieshka</span>, '@gmail.com' ]}
+									text={['', <span className="link-text--non-accent">ladiesman9x</span>, '@gmail.com' ]}
 								/>
 							</div>
 							<h3 className="contact-section-title font-family--emphasis X12">

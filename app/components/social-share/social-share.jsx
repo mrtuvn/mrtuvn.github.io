@@ -3,7 +3,7 @@ import React from 'react';
 import './social-share.scss';
 
 const SocialShare = () => {
-	const SITE_NAME = 'https://godban.github.io';
+	const SITE_NAME = 'https://mrtuvn.github.io';
 
 	// Facebook
 	(function(d, s, id) {
@@ -37,11 +37,11 @@ const SocialShare = () => {
 			<div className="social-share-item social-share-item--github">
 				<a
 					className="github-button"
-					href="https://github.com/godban"
-					data-count-href="/godban/followers"
-					data-count-api="/users/godban#followers"
+					href="https://github.com/mrtuvn"
+					data-count-href="/mrtuvn/followers"
+					data-count-api="/users/mrtuvn#followers"
 					data-count-aria-label="# followers on GitHub"
-					aria-label="Follow @godban on GitHub">GitHub</a>
+					aria-label="Follow @mrtuvn on GitHub">GitHub</a>
 			</div>
 			<div className="social-share-item social-share-item--google">
 				<div

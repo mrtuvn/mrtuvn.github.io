@@ -11,13 +11,13 @@ casper.test.begin('Testing index page', 17, function (test) {
 		.start(config.url)
 		.then(function () {
 			this.echo('1. Title', 'COMMENT');
-			test.assertTitle('Bogdan Plieshka | Frontend Engineer', 'Has correct title');
+			test.assertTitle('Tu Nguyen | Frontend Engineer', 'Has correct title');
 		})
 		.then(function () {
 			this.echo('2. Navigation', 'COMMENT');
 			test.assertExists('.nav-link[href="/"]', 'Navigation link \'Home\' is exist');
-			test.assertExists('.nav-link[href="https://medium.com/@bogdan_plieshka"]', 'Navigation link \'Blog\' is exist');
-			test.assertExists('.nav-link[href="https://github.com/godban?tab=repositories"]', 'Navigation link \'Projects\' exist');
+			test.assertExists('.nav-link[href="https://medium.com/@mrtuvn"]', 'Navigation link \'Blog\' is exist');
+			test.assertExists('.nav-link[href="https://github.com/mrtuvn?tab=repositories"]', 'Navigation link \'Projects\' exist');
 		})
 		.then(function () {
 			this.echo('3. Flip logo', 'COMMENT');

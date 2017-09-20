@@ -17,6 +17,7 @@ import Body from './components/body/body';
 ReactDOM.render(
 	<div>
 		<Header/>
+		<Skills/>
 		<Body/>
 		<Footer/>
 	</div>,
