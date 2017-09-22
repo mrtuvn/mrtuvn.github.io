@@ -25,9 +25,9 @@ const Footer = () => {
 						height="98"
 						alt="Scythe and spade"/>
 					<span className="font-family--emphasis footer-seal-quarter footer-seal-quarter--1">20</span>
-					<span className="font-family--emphasis footer-seal-quarter footer-seal-quarter--2">b</span>
+					<span className="font-family--emphasis footer-seal-quarter footer-seal-quarter--2">t</span>
 					<span className="font-family--emphasis footer-seal-quarter footer-seal-quarter--3">{YEAR}</span>
-					<span className="font-family--emphasis footer-seal-quarter footer-seal-quarter--4">p</span>
+					<span className="font-family--emphasis footer-seal-quarter footer-seal-quarter--4">n</span>
 				</div>
 			</div>
 			<p className="footer-copyright none-to-S">

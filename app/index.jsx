@@ -19,6 +19,7 @@ ReactDOM.render(
 		<Header/>
 		<Skills/>
 		<Body/>
+		<Contact/>
 		<Footer/>
 	</div>,
 	document.getElementById('main')

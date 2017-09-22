@@ -11,7 +11,6 @@ const Body = () => {
     <section className="main-content container sematic-inf">
       <div className="main-content-wrap">
         <div className="content__inner ">
-          <p>test</p>
         </div>
       </div>
     </section>
