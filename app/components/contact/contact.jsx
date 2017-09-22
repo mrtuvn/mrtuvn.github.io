@@ -18,7 +18,7 @@ const Contact = () => {
 	const INSTAGRAM_USERNAME = 'mrtuvn';
 	const TWITTER_USERNAME = 'tuna2191';
 
-	const CONTACT_IMAGE_NAME = 'stairs';
+	const CONTACT_IMAGE_NAME = 'me';
 
 	return (
 		<section className="container contact-section">
@@ -34,8 +34,8 @@ const Contact = () => {
 						width="170"
 						height="280"
 						src={imgSrc(`./${CONTACT_IMAGE_NAME}.png`)}
-						srcSet={`${imgSrc(`./${CONTACT_IMAGE_NAME}.png`)} 1x, ${imgSrc(`./${CONTACT_IMAGE_NAME}-2x.png`)} 2x`}
-						alt="javascript developer"/>
+						srcSet={`${imgSrc(`./${CONTACT_IMAGE_NAME}.png`)} 1x, ${imgSrc(`./${CONTACT_IMAGE_NAME}.png`)} 2x`}
+						alt="me put on glasses"/>
 				</div>
 				<div className="X10 X--offset2 S10 S--offset1 M8 M--offset0 L9 L--offset0 row">
 					<div className="contact-section M6 none-from-L">
@@ -77,14 +77,7 @@ const Contact = () => {
 								title={SKYPE_USERNAME}
 								text="send message"
 							/>
-							<ContactLink
-								modifier=" S6 M12"
-								gaEvent={ga.bind(null, 'send', 'event', 'contact', 'click_viber', {transport: 'beacon'})}
-								link={`viber://add?number=%2B${VIBER_USERNAME}`}
-								iconName="viber"
-								title={`+${VIBER_USERNAME}`}
-								text="send message"
-							/>
+
 						</div>
 					</div>
 					<div className="contact-section M6 L4">
@@ -114,7 +107,7 @@ const Contact = () => {
 								link={`https://www.linkedin.com/in/${LINKEDIN_USERNAME}`}
 								iconName="linkedin"
 								title={LINKEDIN_USERNAME}
-								text={['bogdan', <span className="link-text--non-accent">plieshka</span>]}
+								text={['tu', <span className="link-text--non-accent">nguyen</span>]}
 							/>
 							<ContactLink
 								link={`https://medium.com/@${MEDIUM_USERNAME}`}
