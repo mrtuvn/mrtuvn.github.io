@@ -9,10 +9,8 @@ const Footer = () => {
 	const YEAR = new Date().getFullYear().toString().substring(2);
 	const LOVE_URL = 'https://en.wikipedia.org/wiki/Love';
 	const REACT_URL = 'https://facebook.github.io/react/';
-	const FLEXGRID_URL = 'http://godban.com.ua/projects/flexgrid/';
 	const NO_SHEET_RESET_URL = 'https://github.com/godban/no-sheet-reset';
 	const PUG_URL = 'https://github.com/pugjs/pug';
-	const WEBPACK_URL = 'https://webpack.github.io/';
 
 	return (
 		<footer className="footer container">
