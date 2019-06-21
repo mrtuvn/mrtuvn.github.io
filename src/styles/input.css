@@ -1,0 +1,11 @@
+.input {
+    padding: .33em .66em;
+    border: 1px solid var(--border-color__darker);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    transition: all .1s linear;
+  }
+  
+   .input:hover {
+    border-color: var(--border-color__darkest);
+  }

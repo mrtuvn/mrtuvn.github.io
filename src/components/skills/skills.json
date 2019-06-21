@@ -1,0 +1,386 @@
+[
+	{
+		"name": "HTML5",
+		"level": 5,
+		"description": "In a good old relationship. Started with XHTML and HTML4 a long time ago I was excited when HTML5 arrived, simpler and purer, more semantic with a wide API.",
+		"status": "Well... Always work with it",
+		"image": "html5.svg",
+		"categories": ["languages", "client", "templates"]
+	},
+  {
+    "name": "Pug (ex. Jade)",
+    "level": 4,
+    "description": "Pug? Jade? Whatever, it is a cool template engine. Quick, pure, nodejs. Did a couple of projects with it. Write less, as saying. This site starts with Pug.",
+    "status": "Interesting",
+    "image": "jade.svg",
+    "categories": ["languages", "templates", "client"]
+  },
+  {
+    "name": "XSLT",
+    "level": 4,
+    "description": "Yes, I worked with it. No, I'm not so old. Very powerful and robust thing. XML, converting, XPath. Working with it was the biggest pain.",
+    "status": "No. No way. Never again.",
+    "image": "xslt.jpg",
+    "categories": ["languages", "templates", "client"]
+  },
+	{
+		"name": "CSS",
+		"level": 4,
+		"description": "Hate when people say \"CSS is simple\". CSS is a mess. One big object of mess with different browser interpretations. Usually. Unless you are using bem/smacss, preprocessors, postprocessors and scalable, modular architecture. In right hands CSS can be light, clean, fast & beautifull.",
+		"status": "In love",
+		"image": "css3.svg",
+    "categories": ["languages", "client", "styles"]
+	},
+  {
+    "name": "Sass",
+    "level": 3,
+    "description": "Libsass, .scss, mixins, functions, extends,  placeholders, default vars, var overrides, maps - if you do not use all of this, you are strange.",
+    "status": "Robust. Interesting",
+    "image": "sass.svg",
+    "categories": ["languages", "styles", "client", "preprocessors"]
+  },
+  {
+    "name": "Less",
+    "level": 4,
+    "description": "UI developer life is divided in two stages. The first is before using the preprocessor, second is after.\nLess is not as powerful as Sass but it has some advantages in speed and works differently with mixins and variables.",
+    "status": "Interesting. Prefer Sass, PostCSS.",
+    "image": "less.svg",
+    "categories": ["languages", "styles", "client", "preprocessors"]
+  },
+  {
+    "name": "Stylus",
+    "level": 1,
+    "description": "Have some experience with Stylus, was curious how it worked, did some researches. Do not especially like it.",
+    "status": "Not especially interesting",
+    "image": "stylus.svg",
+    "categories": ["languages", "styles", "client", "preprocessors"]
+  },
+  {
+    "name": "PostCSS",
+    "level": 1,
+    "description": "A better way to do better styles. Mostly use as addition to preprocessors to autoprefix, lint, minify etc.",
+    "status": "Interesting",
+    "image": "postcss.svg",
+    "categories": ["plugins", "styles", "client", "preprocessors", "postprocessor"]
+  },
+  {
+    "name": "BEM",
+    "level": 5,
+    "description": "Block Element Modifier. Just like that. Go BEM you should.",
+    "status": "Interesting",
+    "image": "bem.svg",
+    "categories": ["methodologies", "styles"]
+  },
+  {
+    "name": "Responsive Web Design",
+    "level": 5,
+    "description": "Responsive web design world won. Desktops & apps nowadays have not so significant traffic as mobile browsers. Mobile first, progressive enhancements should be first things to think about before start something. Can you tell difference between adpative and responsive web design? Yes there is significant difference.\nBy the way it's always nice to hear \"wooooow\" while user sizing a window.",
+    "status": "In good relationships",
+    "image": "responsive.png",
+    "categories": ["methodologies", "techniques", "styles"]
+  },
+	{
+		"name": "JavaScript",
+		"level": 3,
+		"description": "It's very difficult to evaluate knowledge of this language, specially if mix to vanilla understanding libs & frameworks. Good I guess.",
+		"status": "Most Interesting",
+		"image": "javascript.svg",
+    "categories": ["languages", "javascript", "client"]
+	},
+  {
+    "name": "jQuery",
+    "level": 4,
+    "description": "Hard to imagine site without this lib. Third major version relased & still actual. Spent a lot of time with it. Hate it for callback hell, love it for simple & clean architecture.",
+    "status": "In good relationships",
+    "image": "jquery.svg",
+    "categories": ["libraries", "javascript"]
+  },
+  {
+    "name": "jQuery UI",
+    "level": 4,
+    "description": "Well... Probably not bad thing if u already cursed with jQuery and need something calendar, draggable or droppable events or autocomplete.",
+    "status": "Use for specific tasks",
+    "image": "jquery-ui.svg",
+    "categories": ["plugins", "javascript"]
+  },
+  {
+    "name": "Lo-Dash",
+    "level": 4,
+    "description": "Lo-Dash began its life as a fork of Underscore. But has usability improvements, extra functionality & better performance.",
+    "status": "Good",
+    "image": "lodash.svg",
+    "categories": ["libraries", "javascript"]
+  },
+  {
+    "name": "Underscore",
+    "level": 3,
+    "description": "Utility library that provides helper functions for common idioms with a focus on functional programming. Mostly worked with it in backbone apps.",
+    "status": "Good",
+    "image": "underscore.png",
+    "categories": ["libraries", "javascript"]
+  },
+  {
+    "name": "Require.js",
+    "level": 4,
+    "description": "Too obsolote nowadays, but still widely used. Version 2+ was huge speed jump, but better to setup webpack.",
+    "status": "Not especially interesting",
+    "image": "requirejs.svg",
+    "categories": ["tools", "building", "javascript"]
+  },
+  {
+    "name": "Backbone.js",
+    "level": 1,
+    "description": "Working with couple projects written with Backbone. Backbone was good, but long time ago. Nowadays there is much more interesting frameworks.",
+    "status": "Not interesting",
+    "image": "backbone.svg",
+    "categories": ["frameworks", "javascript"]
+  },
+  {
+    "name": "Knockout.js",
+    "level": 3,
+    "description": "Worked with Knockout in Magento 2. Data-bind everything.",
+    "status": "Not Interesting",
+    "image": "knockout.svg",
+    "categories": ["frameworks", "javascript"]
+  },
+	{
+		"name": "Angular.js",
+		"level": 2,
+		"description": "Previous version of this site was written on Angular. It was kinda easy to do, but the size, blinking & performance issues made bad experience. Angular 2 was promising, but no. Better use React.js or if you don't like shadow DOM vue.js",
+		"status": "Not interesting",
+		"image": "angular.svg",
+    "categories": ["frameworks", "javascript"]
+	},
+	{
+		"name": "React.js",
+		"level": 4,
+		"description": "This site running under React.js. The virtual DOM approach is fast and provides a functional way of describing the view at any point of time without side effects. Scalable & fast. Server side rendering. Love it.",
+		"status": "Most interesting",
+		"image": "react.svg",
+		"categories": ["frameworks", "javascript"]
+	},
+	{
+		"name": "Vue.js",
+		"level": 3,
+		"description": "Promising framework which has html compatible templates with js expressions & very fast DOM updates. This is how Angular should looks like in unicorn world.",
+		"status": "Interesting",
+		"image": "vue.svg",
+		"categories": ["frameworks", "javascript"]
+	},
+	{
+		"name": "CoffeScript",
+		"level": 3,
+		"description": "Was nice to write on Coffee. Lot of things migrated from it to ES Next. But now we have Babel. So no sense to continue with Coffee.",
+		"status": "Not interesting",
+		"image": "coffeescript.svg",
+		"categories": ["javascript", "preprocessors"]
+	},
+	{
+		"name": "Babel",
+		"level": 5,
+		"description": "Awesome transpiler that is sure to become an addition to virtually every web developer's toolkit.",
+		"status": "Most interesting",
+		"image": "babel.svg",
+		"categories": ["javascript", "preprocessors"]
+	},
+  {
+    "name": "Node.js",
+    "level": 1,
+    "description": "Probably Node.js should occupy one of the highest priorities. But not at the moment. Widely use it infrastructure, but not writing on it.",
+    "status": "Interesting",
+    "image": "nodejs.svg",
+    "categories": ["platforms", "javascript"]
+  },
+  {
+    "name": "Karma",
+    "level": 1,
+    "description": "Nice tool that allows execute JavaScript code in multiple real browsers.",
+    "status": "Interesting",
+    "image": "karma.svg",
+    "categories": ["frameworks", "testing", "javascript"]
+  },
+  {
+    "name": "Jasmine",
+    "level": 1,
+    "description": "Nice Behavior Driven Development testing framework for JavaScript that does not rely on browsers, DOM, or any JavaScript framework. Could be extended with specific needs. Started write JS Unit tests with Karma & Jasmine.",
+    "status": "Interesting",
+    "image": "jasmine.svg",
+    "categories": ["frameworks", "testing", "javascript"]
+  },
+  {
+    "name": "Casper.js",
+    "level": 1,
+    "description": "There are basically 2 kinds of automated tests: Unit and Functional. Let's face it. Writing Unit tests just isn't very fun, and despite what the idealist proponents of TDD may say, it can sometimes take just as long to write the test as it did to write the actual code. No one cares that your Unit tests are passing if your application doesn't function. Casper is a command line utility that runs JavaScript code in the PhantomJS.",
+    "status": "Interesting",
+    "image": "casper.jpg",
+    "categories": ["frameworks", "testing", "javascript"]
+  },
+  {
+    "name": "ESLint",
+    "level": 5,
+    "description": "I am linters fun, probably my colleagues hate me about that. But I just wanna use another's code as mine. Previously used JSCS & JSHint for that pupropses, until they became obsolete.",
+    "status": "Interesting",
+    "image": "eslint.svg",
+    "categories": ["linters", "tools", "javascript"]
+  },
+  {
+    "name": "Gulp",
+    "level": 5,
+    "description": "I like Gulp. Specially from version 4 where tasks can run in parallel significantly speed up build process. Simple & fast.",
+    "status": "Interesting",
+    "image": "gulp.svg",
+    "categories": ["tools", "continuous integration", "building", "javascript"]
+  },
+  {
+    "name": "Grunt",
+    "level": 4,
+    "description": "In Grunt vs Gulp holywar Gulp always wins, but Grunt stays most common CI tool. Yes Grunt is about too much configuration, but can be well done with JIT & load-grunt-config.",
+    "status": "Ok, but prefer Gulp",
+    "image": "grunt.svg",
+    "categories": ["tools", "continuous integration", "building", "javascript"]
+  },
+  {
+    "name": "Webpack",
+    "level": 4,
+    "description": "Glorious tool. Best way to handle JavaScript modules, make granular CSS. AMD support. Hot Module Reloading make developer life much more easier. Of course you need to set up this hell machine previously.",
+    "status": "Most Interesting",
+    "image": "webpack.svg",
+    "categories": ["tools", "continuous integration", "building", "javascript"]
+  },
+  {
+    "name": "Lerna",
+    "level": 1,
+    "description": "A tool for managing JavaScript projects with multiple packages.",
+    "status": "Most Interesting",
+    "image": "lerna.svg",
+    "categories": ["tools", "building", "javascript"]
+  },
+  {
+    "name": "npm",
+    "level": 5,
+    "description": "Node Package Manager is one of the best things that happened with JS ecosystem. Sometimes can be real pain if you have not safe dependencies. Shrinkwrap tho.",
+    "status": "npm i...",
+    "image": "npm.svg",
+    "categories": ["package managers"]
+  },
+  {
+    "name": "Bower",
+    "level": 5,
+    "description": "No pain with install and updates lib and plugins. But better use npm.",
+    "status": "bower install...",
+    "image": "bower.svg",
+    "categories": ["package managers"]
+  },
+  {
+    "name": "Bootstrap",
+    "level": 5,
+    "description": "Lot of best practices in one place. Perfect when you don't have a design and need to prototype something. But I would highly not reccomend to use it for specific needs.",
+    "status": "Interesting",
+    "image": "bootstrap.svg",
+    "categories": ["frameworks", "styles", "javascript"]
+  },
+  {
+    "name": "Foundation",
+    "level": 4,
+    "description": "Not bad framework. Used it couple times. Would use it in a handful of circumstances but not for a customised production-ready site.",
+    "status": "Not especially interesting",
+    "image": "foundation.svg",
+    "categories": ["frameworks", "styles", "javascript"]
+  },
+	{
+		"name": "mySQL",
+		"level": 2,
+		"description": "During work with PHP often managed MySQL DB. Simple queue, joins etc.",
+		"status": "Nothing special",
+		"image": "mysql.svg",
+    "categories": ["databases"]
+	},
+	{
+		"name": "PHP",
+		"level": 4,
+		"description": "Working with it everyday.",
+		"status": "Not especially interesting",
+		"image": "php.svg",
+    "categories": ["languages", "server"]
+	},
+  {
+    "name": "SVN",
+    "level": 4,
+    "description": "First time when I found out Subversion very impressive, in times when was no git. Last committer resolve conflicts. Tortoise. Git is good choice now",
+    "status": "Obsolete",
+    "image": "svn.png",
+    "categories": ["version control"]
+  },
+  {
+    "name": "Git",
+    "level": 4,
+    "description": "Great version control system. Unlike SVN, projects under git is full-fledged repository with complete history and full version-tracking capabilities, independent of network access or a central server.",
+    "status": "Interesting",
+    "image": "git.svg",
+    "categories": ["version control"]
+  },
+	{
+		"name": "Photoshop",
+		"level": 3,
+		"description": "Interesting..",
+		"status": "Interesting",
+		"image": "photoshop.svg",
+    "categories": ["graphic editors", "raster"]
+	},
+	{
+		"name": "phpStorm",
+		"level": 5,
+		"description": "Favorite IDE. Supporting everything that exist if it's not supported you can ease write custom plugin (as example CSS comb on php). Emmet, Git, CI, etc. Right use accelerates the work in times.",
+		"status": "Favorite instrument",
+		"image": "phpstorm.svg",
+    "categories": ["IDE"]
+	},
+	{
+		"name": "Sublime Text",
+		"level": 5,
+		"description": "JetBrains IDE is like business class car, but why you need it if you are going to buy milk? Pick this moto and go.",
+		"status": "When you are lazy to open phpStorm",
+		"image": "sublimetext.png",
+    "categories": ["IDE"]
+	},
+	{
+		"name": "Visual Studio",
+		"level": 3,
+		"description": "It's like operate with spaceship. Not saying that I like, but know how to handle, with ReSharper of course.",
+		"status": "Not especially interesting",
+		"image": "visual-studio.svg",
+    "categories": ["IDE"]
+  },
+  {
+		"name": "Visual Studio Code",
+		"level": 5,
+    "description": "Modern Editor come to industry, built-in with git and lot of stuffs, easily install components. Interesting with it",
+    "status": "Loving it",
+		"image": "visual-studio.svg",
+    "categories": ["IDE"]
+	},
+	{
+		"name": "IE, Edge",
+		"level": 5,
+		"description": "I hate IE. But can force work it right. Fortunately IE 7-8 is deprecated by all world and we can forget about has layout. But still we have IE 9 and should consider degradation. Edge is also not ideal. Real environment testing of course.",
+		"status": "Unfortunately always working with it",
+		"image": "edge.svg",
+    "categories": ["methodologies", "browsers"]
+	},
+	{
+		"name": "DevTools",
+		"level": 4,
+		"description": "You can not be pro if you are not deeply familiar with debugging instruments. I love Chrome Dev tools for continuous innovation.",
+		"status": "Always working with it",
+		"image": "devtools.svg",
+    "categories": ["debugging", "tools"]
+	},
+  {
+    "name": "Emmet",
+    "level": 5,
+    "description": "Ex. Zen Coding. Can't imagine work with marup and styles without this awesome thing. Even routine content adding can be done very fast with that. Write less.",
+    "status": "Always working with it",
+    "image": "emmet.svg",
+    "categories": ["tools", "templates"]
+  }
+]
