@@ -1,7 +1,0 @@
-.idea
-babel-cache/
-backstop_data/
-build/
-node_modules/
-npm-debug.log
-stats.json

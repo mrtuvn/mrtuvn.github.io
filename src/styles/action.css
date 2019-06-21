@@ -1,0 +1,38 @@
+.action {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size__S);
+    background-color: var(--background-color);
+    transition: all 0.1s linear;
+  }
+  
+   .action:focus {
+    border-color: var(--color__primary);
+  }
+  
+   .action:hover {
+    border-color: var(--color__non-accent);
+  }
+  
+   .action--active {
+    color: #fff;
+    background-color: var(--color__primary);
+    border-color: var(--color__primary);
+    pointer-events: none;
+  }
+  
+   .action--active:hover {
+    border-color: var(--color__primary);
+  }
+  
+   .action--secondary {
+    border-style: dashed;
+  }
+  
+   @media (min-width: 768px) {
+    .action {
+      cursor: pointer;
+    }
+  }

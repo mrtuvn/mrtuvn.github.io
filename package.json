@@ -1,25 +1,15 @@
 {
   "name": "mrtuvn",
-  "version": "1.0.0",
-  "description": "Personal page about me, Contacts.",
+  "version": "4.0.0",
+  "description": "My personal homepage",
   "main": "app.js",
   "scripts": {
-    "preinstall": "npm i -g http-server phantomjs slimerjs casperjs backstopjs",
-    "start": "webpack-dev-server",
-    "development": "cp index.html app/index.html && NODE_ENV=development webpack && webpack-dev-server --content-base app/ --hot --inline --devtool inline-source-map --history-api-fallback",
-    "build": "webpack && gulp build",
-    "stats": "webpack --profile --json > stats.json",
-    "eslint": "eslint . --ext .js --ext .jsx",
-    "casper": "casperjs test tests/functional/",
-    "backstop": "rm -rf tests/visual/backstop_data/bitmaps_test && backstop test --configPath=config/backstop.js --silent",
-    "test": "npm run eslint && npm run casper --silent && npm run backstop"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "config": {
-    "env": "develop"
+    "port": 3000
   },
-  "keywords": [
-    "frontend"
-  ],
   "author": "Tu Nguyen ladiesman9x@gmail.com https://mrtuvn.github.io",
   "license": "MIT",
   "homepage": "http://mrtuvn.github.io",
@@ -28,67 +18,21 @@
     "url": "git+https://mrtuvn.github.io"
   },
   "bugs": {
-    "url": "https://mrtuvn.github.io/bugs"
+    "url": "https://mrtuvn.github.io/issues"
   },
   "dependencies": {
-    "flex-box-grid": "0.2.0",
+    "classnames": "2.2.6",
+    "jquery": "3.4.1",
+    "local-storage-parser": "1.1.0",
+    "lodash-es": "4.17.11",
     "magnific-popup": "1.1.0",
-    "no-sheet-reset": "0.1.1",
-    "local-storage-parser": "0.0.2",
-    "jquery": "3.1.0",
-    "react": "^0.14.1",
-    "react-dom": "^0.14.1",
-    "react-router": "^1.0.1",
-    "redux": "^3.5.2",
-    "redux-thunk": "^2.1.0",
-    "fontfaceobserver": "2.0.1",
-    "whatwg-fetch": "1.0.0"
+    "no-sheet-reset": "2.0.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
-    "Stickyfill": "github:wilddeer/stickyfill#1.1.4",
-    "autoprefixer": "6.4.0",
-    "babel-cli": "6.11.4",
-    "babel-core": "6.13.2",
-    "babel-eslint": "6.1.2",
-    "babel-loader": "6.2.5",
-    "babel-plugin-transform-class-properties": "6.11.5",
-    "babel-polyfill": "6.13.0",
-    "babel-preset-es2015": "6.13.2",
-    "babel-preset-react": "6.11.1",
-    "babel-preset-stage-0": "6.5.0",
-    "clean-webpack-plugin": "0.1.10",
-    "clear-render": "^0.1.7",
-    "css-loader": "0.23.1",
-    "del": "2.2.2",
-    "eslint": "3.3.1",
-    "eslint-plugin-react": "6.1.2",
-    "extract-text-webpack-plugin": "1.0.1",
-    "file-loader": "0.9.0",
-    "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-bump": "2.4.0",
-    "gulp-git": "1.11.3",
-    "gulp-imagemin": "3.0.3",
-    "gulp-jsonminify": "1.0.0",
-    "gulp-load-plugins": "1.2.4",
-    "gulp-print": "2.0.1",
-    "gulp-util": "3.0.7",
-    "html-webpack-plugin": "2.22.0",
-    "node-sass": "3.8.0",
-    "postcss-loader": "0.10.1",
-    "pug": "2.0.0-beta4",
-    "pug-loader": "2.2.1",
-    "react-hot-loader": "^1.3.0",
-    "resolve-url-loader": "1.6.0",
-    "sass-loader": "4.0.0",
-    "style-loader": "0.13.1",
-    "url-loader": "0.5.7",
-    "webpack": "1.13.2",
-    "webpack-dev-server": "1.14.1",
-    "webpack-merge": "0.14.1",
-    "webpack-validator": "2.2.7",
-    "yargs": "5.0.0"
-  },
-  "optionalDependencies": {
-    "fsevents": "*"
+    "@types/react": "16.8.17"
   }
 }

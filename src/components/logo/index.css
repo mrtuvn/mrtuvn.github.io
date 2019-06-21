@@ -1,0 +1,104 @@
+.logo {
+	position: relative;
+	display: inline-block;
+	width: 14.285em;
+	height: 14.285em;
+	perspective: 500px;
+	float: left;
+	margin-top: 1.2rem;
+	margin-bottom: 2.1rem;
+	font-size: .8rem;
+	user-select: none;
+  }
+  
+   @media (min-width: 480px) {
+	.logo {
+	  font-size: 1rem;
+	  margin-top: 0;
+	}
+  }
+  
+   @media (min-width: 768px) {
+	.logo {
+	  font-size: 1.4rem;
+	  cursor: pointer;
+	}
+  }
+  
+   .logo-head, .logo-tail {
+	position: absolute;
+	width: 14.285em;
+	height: 14.285em;
+	border: 0.2rem solid #000;
+	border-radius: 14.285em;
+	color: #000;
+	transition: transform 1.2s ease-in-out;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+  }
+  
+   .logo-head::after, .logo-tail::after {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 96%;
+	height: 96%;
+	border: 0.1rem dashed #000;
+	border-radius: 96%;
+	content: '';
+  }
+  
+   .logo-head {
+	z-index: 1;
+	transform: rotateY(0deg);
+  }
+  
+   .logo--flipped .logo-head {
+	transform: rotateY(180deg);
+  }
+  
+   .logo-tail {
+	display: table;
+	transform: rotateY(-180deg);
+  }
+  
+   .logo--flipped .logo-tail {
+	z-index: 2;
+	transform: rotateY(0deg);
+  }
+  
+   .logo-title, .logo-est {
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: center;
+  }
+  
+   .logo-title {
+	top: 50%;
+	margin-top: -.5em;
+	font-size: 4.57em;
+  }
+  
+   .logo-text {
+	display: table-cell;
+	padding: 5% 10%;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1em;
+  }
+  
+   .logo-est {
+	bottom: 0;
+	margin-bottom: 15%;
+	font-weight: 600;
+	font-size: 0.857em;
+  }
+  
+   .logo-img {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -12.5%;
+	width: 25%;
+  }

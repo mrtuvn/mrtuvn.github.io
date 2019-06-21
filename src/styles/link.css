@@ -1,0 +1,56 @@
+.link {
+    color: var(--link_color);
+    cursor: pointer;
+    transition-property: color, text-decoration;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+  
+   .link:hover {
+    color: var(--link_color__hover);
+  }
+  
+   .link:hover .link-text--non-accent {
+    filter: brightness(0.85);
+  }
+  
+   .link--text {
+    color: var(--color);
+    font-weight: var(--font-weight__bold);
+  }
+  
+   .link--text:hover {
+    text-decoration: underline;
+  }
+  
+   .link--text-title {
+    font-weight: var(--font-weight);
+  }
+  
+   .link--text-title:hover {
+    text-decoration: none;
+  }
+  
+   .link-text--non-accent {
+    filter: brightness(0.75);
+  }
+  
+   .link-marker {
+    display: inline-block;
+    position: relative;
+    border: 1px solid;
+    margin-right: .3em;
+    width: .7em;
+    height: .8em;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-top: -.2em;
+  }
+  
+   .link-marker-ico {
+    position: absolute;
+    top: -0.2em;
+    right: 0.2em;
+    transform: rotate(45deg);
+    font-size: .5em;
+  }

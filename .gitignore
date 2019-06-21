@@ -1,5 +1,5 @@
 .idea/
-babel-cache/
+.babel-cache/
 /backstop_data/
 build/
 node_modules/
