@@ -6,6 +6,7 @@ export default class SkillsList extends React.Component {
 
 	constructor(props) {
 		super(props);
+		this.handleSearchBound = this.handleSearch.bind(this);
 	}
 
 	handlePick (i, e) {
@@ -21,8 +22,6 @@ export default class SkillsList extends React.Component {
 	}
 	
 	render() {
-		const counter = null;
-
 		return (
 			<div className="skills-list-wrap">
 				<input
@@ -47,8 +46,6 @@ export default class SkillsList extends React.Component {
 								return null;
 							};
 						}
-
-						counter++;
 
 						return (
 							<a
