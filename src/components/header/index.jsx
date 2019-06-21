@@ -4,7 +4,7 @@ import './index.css';
 
 import Logo from '../logo/index.jsx';
 
-const imgSrc = require.context('./../../img/pictures', true);
+//const imgSrc = require.context('./../../img/pictures', true);
 
 const dates = {
 	now: new Date(),
@@ -71,7 +71,6 @@ class Header extends React.Component {
 
 	render() {
 		const {ga} = window;
-		const HEADER_IMAGE_NAME = 'body';
 		const GA = {
 			header: 'header',
 			navigation: 'nav'
@@ -91,6 +90,7 @@ class Header extends React.Component {
 										className="link link--text link--text-title"
 										href="https://github.com/mrtuvn"
 										onClick={ga.bind(null, 'send', 'event', GA.header, 'click_coding', {transport: 'beacon'})}
+										rel="noopener noreferrer"
 										target="_blank">
 										cod<span className="text--non-accent">ing</span>
 									</a>,&nbsp;
@@ -98,6 +98,7 @@ class Header extends React.Component {
 										className="link link--text link--text-title"
 										href="https://www.youtube.com/user/mrtuvn/videos"
 										onClick={ga.bind(null, 'send', 'event', GA.header, 'click_creating', {transport: 'beacon'})}
+										rel="noopener noreferrer"
 										target="_blank">
 										creat<span className="text--non-accent">ing</span>
 									</a>,&nbsp;
@@ -105,6 +106,7 @@ class Header extends React.Component {
 										className="link link--text link--text-title"
 										href="http://steamcommunity.com/id/mrtu9vn"
 										onClick={ga.bind(null, 'send', 'event', GA.header, 'click_gaming', {transport: 'beacon'})}
+										rel="noopener noreferrer"
 										target="_blank">
 										gam<span className="text--non-accent">ing</span>
 									</a>
@@ -115,17 +117,20 @@ class Header extends React.Component {
 									<a
 										className="action action--active nav-link"
 										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_home')}
+										rel="noopener noreferrer"
 										href="/"
 									>Home</a>
 									<a
 										className="action nav-link"
 										href="https:/mrtuvn.blogspot.com"
 										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_blog', {transport: 'beacon'})}
+										rel="noopener noreferrer"
 										target="_blank"
 									>Blog</a>
 									<a
 										className="action nav-link"
 										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_projects', {transport: 'beacon'})}
+										rel="noopener noreferrer"
 										href="https://github.com/mrtuvn?tab=repositories"
 										target="_blank"
 									>Projects</a>

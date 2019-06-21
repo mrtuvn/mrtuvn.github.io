@@ -21,7 +21,7 @@ export default class SkillsList extends React.Component {
 	}
 	
 	render() {
-		let counter = null;
+		const counter = null;
 
 		return (
 			<div className="skills-list-wrap">
@@ -56,6 +56,7 @@ export default class SkillsList extends React.Component {
 								href={'#' + skill.name}
 								key={skill.name}
 								ref={skill.name}
+								rel="noopener noreferrer"
 								tabIndex={isCurrent ? '-1' : 0}
 								onClick={this.handlePick.bind(this, i)}>{skill.name}</a>
 						);
