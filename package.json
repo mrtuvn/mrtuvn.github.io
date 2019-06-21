@@ -2,7 +2,7 @@
   "name": "mrtuvn",
   "version": "4.0.0",
   "description": "My personal homepage",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
