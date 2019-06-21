@@ -36,18 +36,21 @@ import React from 'react';
 						className="link"
                         href={LOVE_URL}
                         onClick={ga.bind(null, 'send', 'event', 'footer', 'click_love', {transport: 'beacon'})}
+                        rel="noopener noreferrer"
                         target="_blank"
                         >love</a>&nbsp;and&nbsp;
                     <a
                         className="link"
                         href={REACT_URL}
                         onClick={ga.bind(null, 'send', 'event', 'footer', 'click_react', {transport: 'beacon'})}
+                        rel="noopener noreferrer"
                         target="_blank"
                         >react</a>&nbsp;and&nbsp;
                     <a
                         className="link"
                         href={VSCODE_URL}
                         onClick={ga.bind(null, 'send', 'event', 'footer', 'click_vscode', {transport: 'beacon'})}
+                        rel="noopener noreferrer"
                         target="_blank"
                         >vcode</a>
 				</span>

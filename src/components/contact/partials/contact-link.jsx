@@ -24,6 +24,7 @@ const ContactLink = (props) =>  {
 					href={props.link}
 					title={props.title}
 					onClick={props.gaEvent}
+					rel="noopener noreferrer"
 					target="_blank">
 					{
 						Array.isArray(props.text)
