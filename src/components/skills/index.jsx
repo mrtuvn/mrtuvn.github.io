@@ -32,7 +32,6 @@ export default class Skills extends React.Component {
         import('./skills.json')
             .then(
                 ({default: data}) => {
-                    console.log();
                     const name = localStorageParser.get(LS_NAME).name;
                     let skill = data[0]; // set default value to first occurrence
 

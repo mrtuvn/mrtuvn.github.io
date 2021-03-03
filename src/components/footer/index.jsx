@@ -2,7 +2,7 @@ import React from 'react';
 
  import './index.css';
 
- const logoSrc = require('./../../img/logo/scythe-and-spade.svg');
+ import logoSrc from './../../img/logo/scythe-and-spade.svg';
 
  const Index = () => {
     const {ga} = window;
@@ -32,7 +32,7 @@ import React from 'react';
             <p className="footer-copyright none-to-S">
 				<span className="text-size--xs">
 					Made with&nbsp;
-					<a 
+					<a
 						className="link"
                         href={LOVE_URL}
                         onClick={ga.bind(null, 'send', 'event', 'footer', 'click_love', {transport: 'beacon'})}
