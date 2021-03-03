@@ -1,7 +1,7 @@
 [
 	{
 		"name": "HTML5",
-		"level": 5,
+		"level": 4,
 		"description": "In a good old relationship. Started with XHTML and HTML4 a long time ago I was excited when HTML5 arrived, simpler and purer, more semantic with a wide API.",
 		"status": "Well... Always work with it",
 		"image": "html5.svg",
@@ -33,7 +33,7 @@
 	},
   {
     "name": "Sass",
-    "level": 3,
+    "level": 4,
     "description": "Libsass, .scss, mixins, functions, extends,  placeholders, default vars, var overrides, maps - if you do not use all of this, you are strange.",
     "status": "Robust. Interesting",
     "image": "sass.svg",
@@ -81,9 +81,9 @@
   },
 	{
 		"name": "JavaScript",
-		"level": 3,
-		"description": "It's very difficult to evaluate knowledge of this language, specially if mix to vanilla understanding libs & frameworks. Good I guess.",
-		"status": "Most Interesting",
+		"level": 4,
+		"description": "It's very difficult to evaluate knowledge of this language, specially if mix to vanilla understanding libs & frameworks. Good I guess. Javascript now used everywhere",
+		"status": "In Love",
 		"image": "javascript.svg",
     "categories": ["languages", "javascript", "client"]
 	},
@@ -185,7 +185,7 @@
 	},
   {
     "name": "Node.js",
-    "level": 1,
+    "level": 2,
     "description": "Probably Node.js should occupy one of the highest priorities. But not at the moment. Widely use it infrastructure, but not writing on it.",
     "status": "Interesting",
     "image": "nodejs.svg",
@@ -338,7 +338,7 @@
 	{
 		"name": "Sublime Text",
 		"level": 5,
-		"description": "JetBrains IDE is like business class car, but why you need it if you are going to buy milk? Pick this moto and go.",
+		"description": "JetBrains IDE is like business class car, but why you need it if you are going to buy milk? Pick this moto and go. Most fast IDE available. Everything so smooth",
 		"status": "When you are lazy to open phpStorm",
 		"image": "sublimetext.png",
     "categories": ["IDE"]

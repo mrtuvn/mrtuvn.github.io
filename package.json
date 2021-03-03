@@ -1,14 +1,13 @@
 {
   "name": "mrtuvn",
-  "version": "4.1.0",
+  "version": "1.0.0",
   "description": "My personal homepage",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "config": {
-    "port": 3000
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Tu Nguyen ladiesman9x@gmail.com https://mrtuvn.github.io",
   "license": "MIT",
@@ -23,14 +22,14 @@
   "dependencies": {
     "classnames": "2.2.6",
     "jquery": "3.5.0",
+    "react-scripts": "4.0.3",
     "local-storage-parser": "1.1.0",
     "lodash-es": "4.17.14",
     "magnific-popup": "1.1.0",
     "no-sheet-reset": "2.0.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-router-dom": "5.0.0",
-    "react-scripts": "3.0.1"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.2.0"
   },
   "devDependencies": {
     "@types/react": "16.8.17"
