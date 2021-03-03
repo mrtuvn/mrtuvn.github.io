@@ -3,6 +3,8 @@ import React from 'react';
 import Stars from '../partials/skills-card/skills-card-stars.jsx';
 import Description from '../partials/skills-card/skills-card-description.jsx';
 
+// Import all images in image folder
+
 const imgSrc = require.context('../logos', true);
 
 const SkillsCard = ({ skill }) => (

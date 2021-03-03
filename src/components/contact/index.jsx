@@ -8,7 +8,7 @@ const imgSrc = require.context('./../../img/pictures', true);
 
 const Contacts = () => {
 	const {ga} = window;
-	const MAIL_NAME = 'ladiesman9x@gmail.com';
+	const MAIL_NAME = 'tuna9x.it@gmail.com';
 	const SKYPE_USERNAME = 'tunguyenanhvn';
 	const GITHUB_USERNAME = 'mrtuvn';
 	const LINKEDIN_USERNAME = 'mrtuvn';
@@ -47,7 +47,7 @@ const Contacts = () => {
 							iconName="gmail"
 							size={14}
 							title={MAIL_NAME}
-							text={['', <span className="link-text--non-accent">ladiesman9x</span>, '@gmail.com' ]}
+							text={['', <span className="link-text--non-accent">tuna9x.it</span>, '@gmail.com' ]}
 						/>
 					</div>
 					<div className="contact-section M6 L4">
@@ -62,7 +62,7 @@ const Contacts = () => {
 									iconName="gmail"
 									size={14}
 									title={MAIL_NAME}
-									text={['', <span className="link-text--non-accent">ladiesman9x</span>, '@gmail.com' ]}
+									text={['', <span className="link-text--non-accent">tuna9x.it</span>, '@gmail.com' ]}
 								/>
 							</div>
 							<h3 className="contact-section-title font-family--emphasis X12">

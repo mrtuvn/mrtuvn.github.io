@@ -2,8 +2,8 @@
 	{
 		"name": "HTML5",
 		"level": 5,
-		"description": "In a good old relationship. Started with XHTML and HTML4 a long time ago I was excited when HTML5 arrived, simpler and purer, more semantic with a wide API.",
-		"status": "Well... Always work with it",
+		"description": "In a good old relationship. Started with XHTML and HTML4 a long time ago I was excited when HTML5 arrived, simpler and purer, more semantic with a wide API. It's foundation of every website nowaday",
+		"status": "Always work with it",
 		"image": "html5.svg",
 		"categories": ["languages", "client", "templates"]
 	},
@@ -26,14 +26,14 @@
 	{
 		"name": "CSS",
 		"level": 4,
-		"description": "Hate when people say \"CSS is simple\". CSS is a mess. One big object of mess with different browser interpretations. Usually. Unless you are using bem/smacss, preprocessors, postprocessors and scalable, modular architecture. In right hands CSS can be light, clean, fast & beautifull.",
-		"status": "In love",
+		"description": "Hate when people say \"CSS is simple\". CSS is a mess. One big object of mess with different browser interpretations. Usually. Unless you are using bem/smacss, preprocessors, postprocessors and scalable, modular architecture. In right hands CSS can be light, clean, fast & beautifull. Write it with care",
+		"status": "Loved",
 		"image": "css3.svg",
     "categories": ["languages", "client", "styles"]
 	},
   {
     "name": "Sass",
-    "level": 3,
+    "level": 4,
     "description": "Libsass, .scss, mixins, functions, extends,  placeholders, default vars, var overrides, maps - if you do not use all of this, you are strange.",
     "status": "Robust. Interesting",
     "image": "sass.svg",
@@ -81,15 +81,15 @@
   },
 	{
 		"name": "JavaScript",
-		"level": 3,
-		"description": "It's very difficult to evaluate knowledge of this language, specially if mix to vanilla understanding libs & frameworks. Good I guess.",
-		"status": "Most Interesting",
+		"level": 4,
+		"description": "It's very difficult to evaluate knowledge of this language, specially if mix to vanilla understanding libs & frameworks. Good I guess. Javascript now used everywhere",
+		"status": "In Love",
 		"image": "javascript.svg",
     "categories": ["languages", "javascript", "client"]
 	},
   {
     "name": "jQuery",
-    "level": 4,
+    "level": 3,
     "description": "Hard to imagine site without this lib. Third major version relased & still actual. Spent a lot of time with it. Hate it for callback hell, love it for simple & clean architecture.",
     "status": "In good relationships",
     "image": "jquery.svg",
@@ -122,7 +122,7 @@
   {
     "name": "Require.js",
     "level": 4,
-    "description": "Too obsolote nowadays, but still widely used. Version 2+ was huge speed jump, but better to setup webpack.",
+    "description": "Too obsolote nowadays, but still widely used. Version 2+ was huge speed jump, but better to setup webpack. Used a lot while work with magento 2",
     "status": "Not especially interesting",
     "image": "requirejs.svg",
     "categories": ["tools", "building", "javascript"]
@@ -144,10 +144,10 @@
     "categories": ["frameworks", "javascript"]
   },
 	{
-		"name": "Angular.js",
+		"name": "Angular",
 		"level": 2,
-		"description": "Previous version of this site was written on Angular. It was kinda easy to do, but the size, blinking & performance issues made bad experience. Angular 2 was promising, but no. Better use React.js or if you don't like shadow DOM vue.js",
-		"status": "Not interesting",
+		"description": "Angular 9 was promising, Well-writen by good architecture",
+		"status": "Interesting",
 		"image": "angular.svg",
     "categories": ["frameworks", "javascript"]
 	},
@@ -185,7 +185,7 @@
 	},
   {
     "name": "Node.js",
-    "level": 1,
+    "level": 2,
     "description": "Probably Node.js should occupy one of the highest priorities. But not at the moment. Widely use it infrastructure, but not writing on it.",
     "status": "Interesting",
     "image": "nodejs.svg",
@@ -338,7 +338,7 @@
 	{
 		"name": "Sublime Text",
 		"level": 5,
-		"description": "JetBrains IDE is like business class car, but why you need it if you are going to buy milk? Pick this moto and go.",
+		"description": "JetBrains IDE is like business class car, but why you need it if you are going to buy milk? Pick this moto and go. Most fast IDE available. Everything so smooth",
 		"status": "When you are lazy to open phpStorm",
 		"image": "sublimetext.png",
     "categories": ["IDE"]

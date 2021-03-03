@@ -2,7 +2,7 @@ import React from 'react';
 
 import './index.css';
 
-const logoSrc = require('./../../img/logo/scythe-and-spade.svg');
+import logoSrc from './../../img/logo/scythe-and-spade.svg';
 
 const gags = [
 	'If you know what I mean',

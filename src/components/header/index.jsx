@@ -4,12 +4,12 @@ import './index.css';
 
 import Logo from '../logo/index.jsx';
 
-//const imgSrc = require.context('./../../img/pictures', true);
-
 const dates = {
 	now: new Date(),
 	birthday: new Date(1991, 9, 21),
 };
+
+const realAge = timePassed(dates.birthday);
 
 function timePassed(date) {
 	const currentMonth = dates.now.getMonth();
@@ -31,10 +31,10 @@ const getRandomArbitrary = (min, max) => {
 };
 
 class Header extends React.Component {
-	text = `Hey there! My name is Tu. I'm Frontend Engineer. Preach and practice automation. 
-	Staying up to date with rapidly changeable web development. 
-	Involvement in sharing ideas, sketches of prototyping, complex architecture, continuous integration and design is awesome. 
-	I'm living in Hanoi. Have ${timePassed(dates.birthday)} of life behind my back.`;
+	text = `Hey there! My name is Tu. I'm Frontend Engineer. Preach and practice automation.
+	Staying up to date with rapidly changeable web development.
+	Involvement in sharing ideas, sketches of prototyping, complex architecture, continuous integration and design is awesome.
+	I'm living in Hanoi. Have ${realAge} of life behind my back.`;
 
     state = {
         finished: false,
@@ -162,7 +162,7 @@ class Header extends React.Component {
 								onClick={ga.bind(null, 'send', 'event', GA.header, 'click_hanoi', {transport: 'beacon'})}
 								target="blank"
 							>Hanoi</a>
-							{`. Have ${timePassed(dates.birthday)} of life behind my back`}
+							{`. Have ${realAge} of life behind my back`}
 							<br/>
 						</p>
 					</div>}
