@@ -1,6 +1,6 @@
 {
   "name": "mrtuvn",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "My personal homepage",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "local-storage-parser": "1.1.0",
-    "lodash-es": "4.17.11",
+    "lodash-es": "4.17.14",
     "magnific-popup": "1.1.0",
     "no-sheet-reset": "2.0.0",
     "react": "16.8.6",
