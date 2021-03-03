@@ -4,7 +4,7 @@ import './index.css';
 
 import ContactLink from './partials/contact-link.jsx';
 
-import imgSrc from './../../img/pictures/me.png';
+const imgSrc = require.context('./../../img/pictures', true);
 
 const Contacts = () => {
 	const {ga} = window;
@@ -32,8 +32,8 @@ const Contacts = () => {
 						className="contact-image align--v--b"
 						width="170"
 						height="280"
-						src={imgSrc}
-						srcSet={`${imgSrc} 1x, ${imgSrc} 2x`}
+						src={imgSrc(`./${CONTACT_IMAGE_NAME}.png`)}
+						srcSet={`${imgSrc(`./${CONTACT_IMAGE_NAME}.png`)} 1x, ${imgSrc(`./${CONTACT_IMAGE_NAME}.png`)} 2x`}
 						alt="me put on glasses"/>
 				</div>
 				<div className="X10 X--offset2 S10 S--offset1 M8 M--offset0 L9 L--offset0 row">
