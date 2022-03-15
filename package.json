@@ -23,7 +23,7 @@
     "jquery": "3.5.0",
     "react-scripts": "3.0.1",
     "local-storage-parser": "1.1.0",
-    "lodash-es": "4.17.14",
+    "lodash-es": "4.17.21",
     "magnific-popup": "1.1.0",
     "no-sheet-reset": "2.0.0",
     "react": "16.8.6",
