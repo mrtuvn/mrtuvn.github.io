@@ -1,8 +1,8 @@
 {
   "name": "mrtuvn",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
-  "description": "My personal homepage",
+  "description": "My personal portfolio",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -20,15 +20,14 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "jquery": "3.5.0",
-    "react-scripts": "3.0.1",
     "local-storage-parser": "1.1.0",
     "lodash-es": "4.17.21",
     "magnific-popup": "1.1.0",
     "no-sheet-reset": "2.0.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-router-dom": "5.0.0"
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
     "@types/react": "16.8.17"

@@ -19,7 +19,8 @@ const gags = [
 	'If you know what I mean',
 	'Nope',
 	'Yes!',
-	'Fuck it, Dude, let\'s go bowling'
+	'Fuck it, Dude, let\'s go bowling',
+    'Let do this!'
 ];
 
 const {ga} = window;

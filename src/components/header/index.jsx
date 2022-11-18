@@ -131,7 +131,7 @@ class Header extends React.Component {
 										className="action nav-link"
 										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_projects', {transport: 'beacon'})}
 										rel="noopener noreferrer"
-										href="https://github.com/mrtuvn?tab=repositories"
+										href="/projects"
 										target="_blank"
 									>Projects</a>
 								</nav>
