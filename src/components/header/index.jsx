@@ -1,7 +1,13 @@
 import React from 'react';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 import './index.css';
 
+import Projects from '../projects/index.jsx';
 import Logo from '../logo/index.jsx';
 
 const dates = {
@@ -113,28 +119,36 @@ class Header extends React.Component {
 								</h2>
 							</div>
 							<div className="nav-wrap">
-								<nav className="nav">
-									<a
-										className="action action--active nav-link"
-										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_home')}
-										rel="noopener noreferrer"
-										href="/"
-									>Home</a>
-									<a
-										className="action nav-link"
-										href="https:/mrtuvn.blogspot.com"
-										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_blog', {transport: 'beacon'})}
-										rel="noopener noreferrer"
-										target="_blank"
-									>Blog</a>
-									<a
-										className="action nav-link"
-										onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_projects', {transport: 'beacon'})}
-										rel="noopener noreferrer"
-										href="/projects"
-										target="_blank"
-									>Projects</a>
-								</nav>
+                                <Router>
+                                    <nav className="nav">
+                                        <Link
+                                            className="action action--active nav-link"
+                                            onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_home')}
+                                            rel="noopener noreferrer"
+                                            to="/"
+                                        >Home</Link>
+                                        <Link
+                                            className="action nav-link"
+                                            to="https:/mrtuvn.blogspot.com"
+                                            onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_blog', {transport: 'beacon'})}
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                        >Blog</Link>
+                                        <Link
+                                            className="action nav-link"
+                                            onClick={ga.bind(null, 'send', 'event', GA.navigation, 'click_projects', {transport: 'beacon'})}
+                                            rel="noopener noreferrer"
+                                            to="/projects"
+                                            target="_blank"
+                                        >Projects</Link>
+                                    </nav>
+
+                                    <Switch>
+                                        <Route path="/projects">
+                                            <Projects />
+                                        </Route>
+                                    </Switch>
+                                </Router>
 							</div>
 						</div>
 					</div>
